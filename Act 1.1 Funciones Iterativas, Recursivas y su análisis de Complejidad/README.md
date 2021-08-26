@@ -1,11 +1,16 @@
 #suma Iterativa
 
 **Análisis de complejidad temporal**
-
-el algoritmo recorre n pasos ya que usa un ciclo que va i = 1 hatsa n, por los que su complejidad es O(n*n) para el peor de los casos.
+es un ciclo, y para todo ciclco su analisis de complejidad va a ser lineal, representado como O(n)
 
 #suma Recursiva
 
 **Análisis de complejidad temporal**
 
-El algoritmo se manda a llamar así mismo n veces, por los que su complejidad es O(n*n*n) para el peor de los casos.
+igual se puede manejar como un ciclo, ya que al ser recursivo con los parametros de n-1 se maneja de la misma manera, por lo que su complejidad es lineal y se representa como O(n)
+
+#suma directa.
+
+**Análisis de complejidad temporal**
+
+Esta es una unica operacion a manera de formula, por lo que simplemente es un paso y se considera una complejidad constante, representada como O(1).
